@@ -12,9 +12,12 @@ function App() {
     return (
       <>
         <Menu name="Makayla"></Menu>
+        <center>
         <button onClick={() => setLearnt1(true)} title="showSomeCards">
           Learn First Set
         </button>
+        <Test></Test>
+        </center>
       </>
     );
   } else {
@@ -22,7 +25,7 @@ function App() {
       <>
         <h3>Learn the First Set!</h3>
         <button onClick={() => setLearnt1(false)} title="showSomeCards">
-          Learn First Set
+          Go back to main
         </button>
         <FirstSet></FirstSet>
       </>
